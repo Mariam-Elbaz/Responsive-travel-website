@@ -1,6 +1,6 @@
 // navbar icon
 document.querySelector('.sidebar i').addEventListener('click',()=>{
-    if(window.innerWidth <= 768){
+    if(window.innerWidth <= 991){
         let menue = document.querySelector('nav .menue');
 
         menue.style.display = (menue.style.display === 'flex')? 'none': 'flex' ;

@@ -47,11 +47,6 @@ body{
     justify-content: space-between;
     align-items: baseline;
 }
-@media(max-width: 991px){
-    .main-title .h-and-p{
-        display: block;
-    }
-}
 
 .main-title .h-and-p p{
     max-width: 500px;
@@ -59,6 +54,14 @@ body{
 .main-title .h-and-p h2{
     font-size: 2rem;
     margin-bottom: 1rem;
+}
+@media(max-width: 991px){
+    .main-title .h-and-p{
+        display: block;
+    }
+    .main-title .h-and-p p{
+        max-width:100%;
+    }
 }
 
 

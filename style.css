@@ -190,6 +190,7 @@ nav .sidebar{
         border-radius: 2rem;
         width: 50vw;
         height: calc(100vh - 6rem);
+        height: 60vh;
         margin-top: .5rem;
         padding: 2rem 0;
 

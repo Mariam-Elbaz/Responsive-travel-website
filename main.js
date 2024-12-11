@@ -2,15 +2,11 @@
 document.querySelector('.sidebar i').addEventListener('click',()=>{
     if(window.innerWidth <= 991){
         let menue = document.querySelector('nav .menue');
+        let landing = document.querySelector('.landing');
 
         menue.style.display = (menue.style.display === 'flex')? 'none': 'flex' ;
 
-
-        let landing = document.querySelector('.landing');
-
-        menue.style.display = (menue.style.display === 'flex')?
-        landing.style.opacity = '.05':
-        landing.style.opacity = '1';
+        landing.style.opacity = (menue.style.display === 'flex')? '0': '1';
     } 
 });
 

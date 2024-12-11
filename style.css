@@ -97,8 +97,8 @@ a:hover{
     color: rgba(255, 255, 255, 0.7);
 }
 .login:hover, .view-more:hover, input[type=submit]:hover{
-    opacity: .8;
-    /* scale: 1.03; */
+    /* opacity: .8; */
+    scale: .95;
 } 
 input{
     border: none;
@@ -165,7 +165,8 @@ nav .menue ul{
 }
 nav .menue .login{
     background-color: black;
-    padding: .4rem .7rem;
+    /* padding: .4rem .7rem; */
+    padding: .5rem 1rem;
     border-radius: 1.5rem;
 }
 

@@ -6,10 +6,6 @@ document.querySelector('.sidebar i').addEventListener('click',()=>{
         menue.style.display = (menue.style.display === 'flex')? 'none': 'flex' ;
 
 
-        // menue.style.transform = (menue.style.transform === 'translateX(100%)')?
-        //  'translateX(0)': 'translateX(100%)' ;
-
-
         let landing = document.querySelector('.landing');
 
         menue.style.display = (menue.style.display === 'flex')?
